@@ -1,4 +1,4 @@
-package com.learning.learning
+package com.learning
 
 class JVMPlatform {
     val name: String = "Java ${System.getProperty("java.version")}"

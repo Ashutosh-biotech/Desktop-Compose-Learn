@@ -34,11 +34,11 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "com.learning.learning.MainKt"
+        mainClass = "com.learning.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "com.learning.learning"
+            packageName = "com.learning"
             packageVersion = "1.0.0"
         }
     }
